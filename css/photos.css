@@ -8,7 +8,7 @@
     /*text-align: center;*/
 /*}*/
 
-.photoBlock h1, h2,  p {
+.photoBlock h1, h2, h3 p {
     text-align: left;
     margin: 0;
 }
@@ -22,7 +22,7 @@
 
 .photoBlock img {
     max-width: 100%;
-    height: auto;
+    /*height: auto;*/
 }
 
 .photoBlock p {
@@ -34,8 +34,8 @@
 .photoBlock {
     position: relative;
     /*width: 100%;*/
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 */
+    /*height: 0;*/
+    
 }
 
 .photoBlock iframe {
