@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="uk">
+    <link rel="icon" href="movie.ico">
+    <title>УкрКіно</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/main-slick.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/photos.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="upper-part">
+        <aside>
+            <nav>
+                <ul class="mainmenu">
+                    <li><a href="#refreshPage">Головна</a></li>
+                    <li class="hasdropmenu">
+                        <a href="#films">Кіно</a>
+                        <ul class="submainmenu">
+                            <li><a href="#">Драма</a></li>
+                            <li><a href="#">Комедія</a></li>
+                            <li><a href="#">Історичні</a></li>
+                            <li><a href="#">Фантастика</a></li>
+                        </ul>
+                    </li>
+                    <li class="hasdropmenu">
+                        <a href="#">Мультимедіа</a>
+                        <ul class="submainmenu">
+                            <li><a href="photos.html" id="photos">Фото</a></li>
+                            <li><a href="trailers.html" id="videos">Відео</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#form">Відгук</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <header>
+            <div class="headerblock mainlogo">
+                <img id="logoimage" alt="ЛОГО" src="img/logo.png" title="Перший сайт про українське кіно!">
+            </div>
+            <div class="social_items">
+                <div class="headerblock">
+                    <a href="#" title="Наша сторінка на facebook">
+                        <img class="social" alt="Шукайте нас у соціальних мережах" src="img/social_icons/facebook_icon.jpg">
+                    </a>
+                </div>
+                <div class="headerblock">
+                    <img class="social" alt="Рейтинговий сайт IMDB" src="img/social_icons/imdb_icon.jpg">
+                </div>
+                <div class="headerblock">
+                    <img class="social" alt="Відеохостинг Youtube" src="img/social_icons/youtube_icon.jpg">
+                </div>
+                <div class="headerblock">
+                    <form class="searchform">
+                        <input class="searcharea" type="search">
+                        <input class="searcharea" type="button" value="шукати">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="newFilms">
+                    <span class="inrental">Незабаром у прокаті</span>
+                        <div class="arrow arrowleft">
+                            <a href="#"> <img src="img/arrow.png" title="Повернутися до попереднього..."> </a>
+                        </div>
+
+
+                        <div class="slider multiple-items">
+                            <div  class="filminfo">
+                                <strong class="koluprokat">з 30 серпня</strong>
+                                <figure class="poster_small">
+                                    <div class="blockWithShortLinks">
+                                        <img class="filmsPosters" src="img/posters/bobot.jpg" alt="Бобот" />
+                                        <section class="newFilmsLinks">
+                                            <p>Фантастика</p>
+                                            <p>Трейлер</p>
+                                            <p>Веб-сайт</p>
+                                        </section>
+                                    </div>
+                                    <figcaption class="previewFilmName">Бобот та енергія світу</figcaption>
+                                </figure>
+                                <a href="#" title="Квитки доступні у кінотеатрах Львова" class="buyTicket">
+                                    КУПИТИ КВИТОК
+                                </a>
+                            </div>
+
+                            <div  class="filminfo">
+                                <strong class="koluprokat">з 30 серпня</strong>
+                                <figure class="poster_small">
+                                    <div class="blockWithShortLinks">
+                                        <img class="filmsPosters" src="img/posters/perlura.png" alt="Таємний щоденник Симона Петлюри" />
+                                        <section class="newFilmsLinks">
+                                            <p>Драма, історичний</p>
+                                            <p>Трейлер</p>
+                                            <p>Веб-сайт</p>
+                                        </section>
+                                    </div>
+                                    <figcaption class="previewFilmName">Таємний щоденник Симона Петлюри</figcaption>
+                                </figure>
+                                <a href="#" title="Квитки доступні у кінотеатрах Львова" class="buyTicket">
+                                    КУПИТИ КВИТОК
+                                </a>
+                            </div>
+
+                            <div  class="filminfo">
+                                <strong class="koluprokat">з 30 серпня</strong>
+                                <figure class="poster_small">
+                                    <div class="blockWithShortLinks">
+                                        <img src="img/posters/padautdereva.jpeg" alt="Коли падають дерева" />
+                                        <section class="newFilmsLinks">
+                                            <p>Драма</p>
+                                            <p>Трейлер</p>
+                                            <p>Веб-сайт</p>
+                                        </section>
+                                    </div>
+                                    <figcaption class="previewFilmName">Коли падають дерева</figcaption>
+                                </figure>
+
+                                <a href="#" title="Квитки доступні у кінотеатрах Львова" class="buyTicket">
+                                    КУПИТИ КВИТОК
+                                </a>
+                            </div>
+
+                            <div  class="filminfo">
+                                <strong class="koluprokat">з 5 жовтня</strong>
+                                <figure class="poster_small">
+                                    <div class="blockWithShortLinks">
+                                        <img src="img/posters/klara.jpg" alt="Коли падають дерева" />
+                                        <section class="newFilmsLinks">
+                                            <p>Анімація, комедія</p>
+                                            <p>Трейлер</p>
+                                            <p>Веб-сайт</p>
+                                        </section>
+                                    </div>
+                                    <figcaption class="previewFilmName">Клара</figcaption>
+                                </figure>
+
+                                <a href="#" title="Квитки доступні у кінотеатрах Львова" class="buyTicket">
+                                    КУПИТИ КВИТОК
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="arrow arrowright" role="button">
+                            <a href="#"><img src="img/arrow.png" title="Перейти до наступного..."> </a>
+                        </div>
+                </div>
+            <div id="films">
+                <h1 class="chapter">КІНО</h1>
+                <div class="films_grid">
+                    <div class="filmblock movieBlock1">
+                        <figure class="kino_small">
+                            <img src="img/posters/zastava.jpg" alt="Сторожова застава" />
+                            <figcaption><strong>Сторожова застава</strong></figcaption>
+                        </figure>
+                            <div class="linksaboutfilms">
+                                <img src="img/social_icons/imdb.png" alt="IMDB" title="Рейтинг IMDB">
+                                <img src="img/social_icons/wiki.png" alt="WIKI" title="Опис на WIKI">
+                            </div>
+                        <section class="moviereview">
+                            <span><p>Український пригодницький фільм-фентезі, знятий Юрієм Ковальовим за мотивами однойменної
+                                книги Володимира Рутківського</p>  </span>
+                            <p class="moreInfo">більше...</p>
+                        </section>
+                    </div>
+                    <div class="filmblock movieBlock2">
+                        <figure class="kino_small">
+                            <img src="img/posters/zastava.jpg" alt="Сторожова застава" />
+                            <figcaption><strong>Сторожова застава</strong></figcaption>
+                        </figure>
+                        <div class="linksaboutfilms">
+                            <img src="img/social_icons/imdb.png" alt="IMDB" title="Рейтинг IMDB">
+                            <img src="img/social_icons/wiki.png" alt="WIKI" title="Опис на WIKI">
+                        </div>
+                        <section class="moviereview">
+                            <span><p>Український пригодницький фільм-фентезі, знятий Юрієм Ковальовим за мотивами однойменної
+                                книги Володимира Рутківського</p> </span>
+                            <p class="moreInfo">більше...</p>
+                        </section>
+                    </div>
+                    <div class="filmblock movieBlock3">
+                        <figure class="kino_small">
+                            <img src="img/posters/zastava.jpg" alt="Сторожова застава" />
+                            <figcaption><strong>Сторожова застава</strong></figcaption>
+                        </figure>
+                        <div class="linksaboutfilms">
+                            <img src="img/social_icons/imdb.png" alt="IMDB" title="Рейтинг IMDB">
+                            <img src="img/social_icons/wiki.png" alt="WIKI" title="Опис на WIKI">
+                        </div>
+                        <section class="moviereview">
+                            <span><p>Український пригодницький фільм-фентезі, знятий Юрієм Ковальовим за мотивами однойменної
+                                книги Володимира Рутківського</p> </span>
+                            <p class="moreInfo">більше...</p>
+                        </section>
+                    </div>
+                </div>
+                <p class="showMoreMovie">ПОКАЗАТИ БІЛЬШЕ...</p>
+            </div>
+
+            <div id="form">
+                <a name="#formazviazku"><h1 class="chapter">Відправте нам повідомлення</h1></a>
+                <form class="mainform" action="#" title="Зворотній зв'язок" enctype="text/plain" method="post"
+                      name="feedbackform" target="_blank">
+                    <label class="name">Вкажіть своє ім'я *
+                        <input type="text" required title="Ваше ім'я">
+                    </label>
+                    <label class="mail">Електронна пошта
+                        <input type="email" title="Пошта">
+                    </label>
+                    <label class="phone">Телефон
+                        <input type="tel" title="Телефон">
+                    </label>
+                    <label class="theme">Тема повідомлення
+                        <input type="text" title="Тема">
+                    </label>
+                    <label class="message">Повідомлення
+                        <input type="text" title="Повідомлення">
+                    </label>
+                    <label class="button">
+                        <input type="submit" title="Відправити" value="Відправити">
+                    </label>
+                </form>
+            </div>
+        </main>
+
+
+    </div>
+    <footer>
+
+        <section class="blockkontakts" id="contacts">
+            <h3>
+                Контакти
+            </h3>
+                <div class="bottomPart">
+                    <div class="contacts firstblockcontacts">
+                        <p>
+                            Наш телефон: 888888;
+                        </p>
+                        <p>
+                            Елетронна пошта: sometest@server.net;
+                        </p>
+                    </div>
+                    <div class="contacts  secondblockcontacts">
+                <p>
+                    Соціальні мережі: facebook.com/filmUA;
+                </p>
+                <p>
+                    Поштова адреса: вул. Городоцька, 59А;
+                </p>
+            </div>
+                </div>
+        </section>
+
+    </footer>
+    <div class="rightreserved">
+        <p>Всі права захищено</p>
+        <p><time>2018</time>рік</p>
+    </div>
+</body>
+</html>
